@@ -1,6 +1,6 @@
 # NoSQL in Action!
 
-[![Build](https://github.com/w4bo/2024-nosql-utours/actions/workflows/build.yml/badge.svg)](https://github.com/w4bo/2024-nosql-utours/actions/workflows/build.yml)
+[![Build](https://github.com/w4bo/2024-utours-nosql/actions/workflows/build.yml/badge.svg)](https://github.com/w4bo/2024-utours-nosql/actions/workflows/build.yml)
 
 Matteo Francia, University of Bologna.
 
