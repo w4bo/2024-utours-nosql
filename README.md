@@ -1,12 +1,12 @@
 # NoSQL in Action!
 
-[![Build](https://github.com/w4bo/2024-nosql-utours/actions/workflows/build.yml/badge.svg)](https://github.com/w4bo/2024-nosql-utours/actions/workflows/build.yml)
+[![Build](https://github.com/w4bo/2024-utours-nosql/actions/workflows/build.yml/badge.svg)](https://github.com/w4bo/2024-utours-nosql/actions/workflows/build.yml)
 
 Matteo Francia, University of Bologna.
 
 Thanks to Enrico Gallinucci and Oscar Romero for sharing their teaching material.
 
-Link to this repository: https://github.com/w4bo/2023-utours-nosql
+Link to this repository: https://github.com/w4bo/2024-utours-nosql
 
 ## Description
 
@@ -42,8 +42,3 @@ For both data models, we will have 2-hour theory and 3-hour laboratory classes.
 1. Connect Studio3T to MongoDB (`${MONGO_URL}:${MONGO_PORT}`, e.g. `127.0.0.1:27118`)
    ![immagine](https://user-images.githubusercontent.com/18005592/224693910-36e7fbd3-aac7-4888-8872-a3ef2f12bda1.png)
 1. Access via browser the Neo4J's GUI (`${NEO4J_URL}:${NEO4J_PORT_GUI}`, e.g. `127.0.0.1:7474`)
-
-## AWS Learners lab
-
-- To request the access as a student: https://forms.gle/F7R8GZHgoiids8546
-- Then, log in to: https://awsacademy.instructure.com
