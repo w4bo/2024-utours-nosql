@@ -1,0 +1,29 @@
+name: "Build"
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.2
+      - uses: actions/setup-node@v3.6.0
+        with:
+          node-version: '17.3.0'
+      - name: Dummy KV DB
+        run: |
+          ls
+          cd code/kv_bash
+          source kv.sh
+          kset foo bar
+          kget foo
+          kget bar
+      - name: Build Images
+        run: |
+          cd code
+          chmod +x *.sh
+          ./start.sh
+          ./stop.sh
