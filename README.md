@@ -1,8 +1,9 @@
 # NoSQL in Action!
 
-[![Build](https://github.com/w4bo/2023-nosql-utours/actions/workflows/build.yml/badge.svg)](https://github.com/w4bo/2023-nosql-utours/actions/workflows/build.yml)
+[![Build](https://github.com/w4bo/2024-nosql-utours/actions/workflows/build.yml/badge.svg)](https://github.com/w4bo/2024-nosql-utours/actions/workflows/build.yml)
 
 Matteo Francia, University of Bologna.
+
 Thanks to Enrico Gallinucci and Oscar Romero for sharing their teaching material.
 
 Link to this repository: https://github.com/w4bo/2023-utours-nosql
@@ -18,12 +19,11 @@ For both data models, we will have 2-hour theory and 3-hour laboratory classes.
 
 |          When           | Duration (hours) | What                                                                    |
 |:-----------------------:|:----------------:|-------------------------------------------------------------------------|
-| Mon 13/03/2023, 13:00   |         2        | Introduction to NoSQL databases with a focus on Document-based database |
-| Tue 14/03/2023, 15:00   |         3        | Hands on MongoDB                                                        |
-| Thu 16/03/2023, 08:15   |         2        | Introduction to property and knowledge graph databases                  |
-| Thu 16/03/2023, 11:00   |         3        | Hands on Neo4J                                                          |
-| ~Fri 17/03/2023, 13:00~ |                  | **Canceled**                                                            |
-| Fri 24/03/2023, 13:00   |         1        | Final Test (~1 hour)                                                    |
+| Fri 2024-02-09, 13:00   |         2        | Introduction to NoSQL databases with a focus on Document-based database |
+| TBD   |         3        | Hands on MongoDB                                                        |
+| TBD   |         2        | Introduction to property and knowledge graph databases                  |
+| TBD   |         3        | Hands on Neo4J                                                          |
+| TBD   |         1        | Final Test (~1 hour)                                                    |
 
 - `code/` contains the software necessary to start the databases on docker
 - `slides/` contains the teaching material
