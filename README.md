@@ -31,7 +31,7 @@ For both data models, we will have 2-hour theory and 3-hour laboratory classes.
 ## Requirements
 
 1. Install and run Docker Desktop and Studio3T
-1. Clone the repository: `git clone https://github.com/w4bo/2023-utours-nosql.git`
+1. Clone the repository: `git clone https://github.com/w4bo/2024-utours-nosql.git`
 1. Start the databases
     - On Windows, double click on `code/start.bat`
     - On Linux,
