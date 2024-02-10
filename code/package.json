@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "cassandra-driver": "4.7.2",
-    "dotenv": "16.0.3",
+    "dotenv": "16.4.1",
     "mongodb": "5.8.1",
     "mysql": "2.18.1",
     "neo4j-driver": "5.7.1",
