@@ -17,13 +17,12 @@ For both data models, we will have 2-hour theory and 3-hour laboratory classes.
 
 ## Teaching material
 
-|          When           | Duration (hours) | What                                                                    |
-|:-----------------------:|:----------------:|-------------------------------------------------------------------------|
-| Fri 2024-02-09, 13:00   |         2        | Introduction to NoSQL databases with a focus on Document-based database |
-| Tue 2024-02-13, 13:00   |         3        | Hands on MongoDB                                                        |
-| Fri 2024-02-23, 13:00   |         2        | Introduction to property and knowledge graph databases                  |
-| Mon 2024-02-26, 13:00   |         3        | Hands on Neo4J                                                          |
-| TBD   |         1        | Final Test (~1 hour)                                                                      |
+|          When                      | Duration (hours) | What                                                                    |
+|:----------------------------------:|:----------------:|-------------------------------------------------------------------------|
+| Fri 2024-02-09, 13:00 (room 345)   |         2        | Introduction to NoSQL databases with a focus on Document-based database |
+| Wed 2024-02-21, 14:45 (room 345)   |         2        | Introduction to property and knowledge graph databases                  |
+| Fri 2024-02-23, 14:45 (room 345)   |         3        | Hands on MongoDB                                                        |
+| Fri 2024-03-15, 14:45 (room 345)   |         3        | Hands on Neo4J                                                          |
 
 - `code/` contains the software necessary to start the databases on docker
 - `slides/` contains the teaching material
