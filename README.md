@@ -29,15 +29,44 @@ For both data models, we will have 2-hour theory and 3-hour laboratory classes.
 
 ## Requirements
 
-1. Install and run Docker Desktop and Studio3T
+### Install MongoDB
+
+#### With Docker (if you have Docker installed in your PC)
+
+1. Install and run Docker Desktop
 1. Clone the repository: `git clone https://github.com/w4bo/2024-utours-nosql.git`
-1. Start the databases
+1. Start the database (collections are automatically loaded into the database)
     - On Windows, double click on `code/start.bat`
     - On Linux,
       ```sh
       cd code
-      sh start-centos.sh
+      sh start.sh
       ``` 
+
+#### Without Docker
+
+1. Follow the instructions at [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
+    - Windows: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows-unattended/#std-label-install-mdb-community-windows-msiexec
+    - Linux: https://www.mongodb.com/docs/manual/administration/install-on-linux/ 
+2. Clone the repository: `git clone https://github.com/w4bo/2024-utours-nosql.git`
+3. Download the databases
+    - On Windows, double click on `code/download.bat`
+    - On Linux,
+      ```sh
+      cd code
+      sh download.sh
+      ``` 
+4. Import the databases
+```sh
+mongorestore --host <database-host> --port <database-port> -d exercises code/mongodb/data
+``` 
+   
+### Install Studio3T 
+
+1. Download and install Studio3T
 1. Connect Studio3T to MongoDB (`${MONGO_URL}:${MONGO_PORT}`, e.g. `127.0.0.1:27118`)
    ![immagine](https://user-images.githubusercontent.com/18005592/224693910-36e7fbd3-aac7-4888-8872-a3ef2f12bda1.png)
+
+## Neo4J
+
 1. Access via browser the Neo4J's GUI (`${NEO4J_URL}:${NEO4J_PORT_GUI}`, e.g. `127.0.0.1:7474`)
