@@ -33,7 +33,7 @@ services:
       - .env
 
   neo4j:
-    image: neo4j:4.4
+    image: neo4j:5.24
     hostname: neo4j
     container_name: neo4j
     volumes:
